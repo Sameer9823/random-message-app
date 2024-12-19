@@ -5,6 +5,7 @@ import UserModel, { User } from '@/models/User.models';
 
 interface AuthUser {
   _id: string;
+  id: string; 
   email: string;
   username: string;
   isVerified: boolean;

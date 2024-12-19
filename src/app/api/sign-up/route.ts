@@ -70,8 +70,7 @@ export async function POST(request: Request) {
 
     } catch (error) {
         console.error("Error Registrating User",error)
-        return
-        Response.json({success: false, message: "Error resgistering user"},
+        return Response.json({success: false, message: "Error resgistering user"},
             { status: 500 }
         )
         
